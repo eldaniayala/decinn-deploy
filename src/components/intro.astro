@@ -1,0 +1,29 @@
+---
+import { Icon } from "astro-icon";
+import ContentSection from "~/components/content-section.astro";
+---
+
+<ContentSection title="Innovación descentralizada" id="intro">
+  <img src="favicon.png" slot="eyebrow" alt="logo DecInn" class="h-32" />
+  <Fragment slot="lead">
+    Nuestra misión es desarrollar
+    <span class="text-orange-400">soluciones digitales</span> con prácticas éticas y sostenibles. Nos esforzamos por brindar 
+    <span class="text-orange-400">herramientas</span> intuitivas, innovadoras y eficientes. El <span class="text-orange-400">futuro</span> es hoy.
+  </Fragment>
+  <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+    <a
+      href="https://stocklimpio.com/"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon pack="mdi" name="list-status" class="h-8" />
+      <span>Stock Limpio</span>
+    </a>
+    <a
+      href="https://www.tuprimeraweb.com.ar/"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon pack="mdi" name="web-check" class="h-8" />
+      <span>Diseño web</span>
+    </a>
+  </div>
+</ContentSection>

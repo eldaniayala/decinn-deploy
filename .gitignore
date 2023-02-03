@@ -17,15 +17,3 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
-package-lock.json
-package.json
-src
-public
-.npmrc
-.prettierignore
-.prettierrc.cjs
-astro.config.mjs
-decinn-logo.png
-screenshots.jpg
-tailwind.config.cjs
-tsconfig.json
